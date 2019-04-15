@@ -1150,6 +1150,7 @@ h1.intro-header::before {
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   z-index: 501;
+  color: white;
 }
 
 .header-logo a {
@@ -1160,8 +1161,8 @@ h1.intro-header::before {
   border: none;
   width: 97px;
   height: 22px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 97px 22px;
+  /*background: url("../images/logo.png") no-repeat center;
+  background-size: 97px 22px;*/
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1891,7 +1892,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   max-width: 1000px;
   min-height: 300px;
   margin-top: 7.2rem;
-  margin-left: auto;
+  margin-left: 25%; /*auto;*/
   margin-right: auto;
   clear: both;
 }

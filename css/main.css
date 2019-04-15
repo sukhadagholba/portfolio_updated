@@ -83,14 +83,14 @@ body {
 
 a,
 a:visited {
-  color: #0087cc;
+  color: #39b54a; /*#0087cc;*/
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #39b54a;
+  color: white; /*#39b54a;*/
 }
 
 
